@@ -17,9 +17,12 @@ img {
   background-image: linear-gradient(to top,rgba(73, 85, 98, 0));
 }
 
+body {
+  position:relative;
+}
+
 header {
   background-color: #495562;
-  position: absolute;
   max-width: 50em;
 }
 
@@ -49,8 +52,11 @@ a {
 
 @media only screen and (min-width: 42em) {
 
-  body {
+  header {
     max-height: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
   header {
