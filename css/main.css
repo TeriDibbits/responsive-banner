@@ -13,7 +13,7 @@ html {
   font-family: Georgia, serif;
 }
 
-img {
+.banner-content {
   background-image: linear-gradient(to top, rgba(73, 85, 98, 1), rgba(73, 85, 98, 0));
 }
 
