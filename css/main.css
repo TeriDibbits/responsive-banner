@@ -14,6 +14,10 @@ html {
 }
 
 body {
+  max-height: 500px;
+}
+
+img {
   background-image: linear-gradient(to bottom,rgba(73, 85, 98, 0));
 }
 
@@ -32,7 +36,7 @@ p {
 
 .btn {
   background-color: #495562;
-  border-color: #efefef;
+  border-color: #97a49b;
 }
 
 .btn:hover {
