@@ -15,15 +15,17 @@ html {
 
 body {
   background-image: url("../images/earth-horizon.jpg");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: auto;
   max-height: 500px;
   max-width: 25em;
   background-position: top;
+  background-image: linear-gradient(rgba(73, 85, 98, 0));
 }
 
 header {
   background-color: #495562;
+  position: absolute;
 }
 
 h1 {
