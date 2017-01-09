@@ -10,20 +10,19 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: georgia;
+  font-family: Georgia, serif;
 }
 
 img {
-  background-image: linear-gradient(to top,rgba(73, 85, 98, 0));
+  background-image: linear-gradient(to top, rgba(73, 85, 98, 0), rgba(73, 85, 98, 1));
 }
 
 body {
-  position:relative;
+  position: relative;
 }
 
 header {
   background-color: #495562;
-  max-width: 50em;
 }
 
 h1 {
@@ -57,9 +56,10 @@ a {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;
   }
 
-  header {
+  p {
     max-width: 25em;
   }
 
