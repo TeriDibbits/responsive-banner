@@ -13,17 +13,14 @@ html {
   font-family: georgia;
 }
 
-body {
-  max-height: 500px;
-}
-
 img {
-  background-image: linear-gradient(to bottom,rgba(73, 85, 98, 0));
+  background-image: linear-gradient(to top,rgba(73, 85, 98, 0));
 }
 
 header {
   background-color: #495562;
   position: absolute;
+  max-width: 50em;
 }
 
 h1 {
@@ -31,7 +28,7 @@ h1 {
 }
 
 p {
-  color: #fff;
+  color: #efefef;
 }
 
 .btn {
@@ -48,6 +45,18 @@ p {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 42em) {
+
+  body {
+    max-height: 500px;
+  }
+
+  header {
+    max-width: 25em;
+  }
+
 }
 
 *, *::before, *::after {
