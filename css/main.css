@@ -17,11 +17,7 @@ img {
   background-image: linear-gradient(to top, rgba(73, 85, 98, 0), rgba(73, 85, 98, 1));
 }
 
-body {
-  position: relative;
-}
-
-header {
+.banner {
   background-color: #495562;
 }
 
@@ -31,6 +27,7 @@ h1 {
 
 p {
   color: #efefef;
+  max-width: 50em;
 }
 
 .btn {
@@ -51,7 +48,15 @@ a {
 
 @media only screen and (min-width: 42em) {
 
-  header {
+  body {
+    max-height: 500px;
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  .banner-content {
     max-height: 500px;
     position: absolute;
     bottom: 0;
