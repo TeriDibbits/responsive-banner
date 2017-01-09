@@ -17,9 +17,20 @@ body {
   background-image: url("../images/earth-horizon.jpg");
   background-repeat: none;
   background-size: auto;
+  max-height: 500px;
+  max-width: 25em;
+  background-position: top;
+}
+
+header {
+  background-color: #495562;
 }
 
 h1 {
+  color: #fff;
+}
+
+p {
   color: #fff;
 }
 
